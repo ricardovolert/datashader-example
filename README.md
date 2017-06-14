@@ -8,4 +8,4 @@ x_col,y_col,z_col
 
 Example, for a cosmological simulation dataset (about 9M particles):
 
-![cosmological simulation](http://www.astro.iag.usp.br/~ruggiero/share/145.png)
+![cosmological simulation](http://www.astro.iag.usp.br/~ruggiero/share/datashader.png)
