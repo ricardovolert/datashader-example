@@ -12,4 +12,4 @@ agg = cvs.points(df, 'x_col', 'y_col')
 
 img = bg(tf.interpolate(agg, cmap = cm(Greys9,0.2), how='log')) 
 img2 = img.to_pil()
-img2.save(argv[1] + '.png')
+img2.save('output.png')
