@@ -1,5 +1,7 @@
 # datashader-example
 
+[Datashader GitHub](https://github.com/bokeh/datashader)
+
 Make sure your input csv file (in this example, `pos.csv`) has this as the first row:
 
 ```
