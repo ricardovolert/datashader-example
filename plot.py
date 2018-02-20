@@ -14,6 +14,6 @@ df = pd.read_csv(filename)
 cvs = ds.Canvas(plot_width=pixels, plot_height=pixels)
 agg = cvs.points(df, 'x_col', 'y_col')
 
-img = bg(tf.interpolate(agg, cmap = cm(Greys9,0.2), how='log'))
+img = bg(tf.shade(agg, cmap = cm(Greys9,0.2), how='log'))
 img2 = img.to_pil()
 img2.save('output.png')
